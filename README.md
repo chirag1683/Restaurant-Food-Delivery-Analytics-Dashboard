@@ -18,9 +18,8 @@
 4. [Data Cleaning Performed](#4-data-cleaning-performed)
 5. [Data Model](#5-data-model)
 6. [DAX Measures](#6-dax-measures)
-7. [Dashboard Screenshots](#7-dashboard-screenshots)
-8. [Key Findings](#8-key-findings)
-9. [Conclusion](#9-conclusion)
+7. [Key Findings](#8-key-findings)
+8. [Conclusion](#9-conclusion)
 
 ---
 
@@ -153,42 +152,9 @@ The **KPI selector** on the *Advanced Insights* page uses a **field parameter** 
 
 ---
 
-## 7. Dashboard Screenshots
-The report has **6 pages**, designed with a consistent red-and-white theme, KPI cards at the top and detailed visuals beneath.
 
-### Page 1 – Executive Overview
-High-level KPIs (Revenue, Orders, AOV, Delivery Time), revenue by city, order-status breakdown, Top 10 restaurants, revenue/order trends and a city-wise filter.
 
-![Executive Overview](images/01_executive_overview.png)
-
-### Page 2 – Customer Analytics
-Total / repeat customers, repeat %, orders per customer, orders by customer type, new vs repeat split, top-10 customers by revenue, signup trend and table-booking slicer.
-
-![Customer Analytics](images/02_customer_analytics.png)
-
-### Page 3 – Restaurant Performance
-Total restaurants, average rating and votes, revenue per restaurant, orders by cuisine, rating-wise revenue, online-order slicer, average rating by cuisine, orders per cost bucket and revenue by top 10 restaurants.
-
-![Restaurant Performance](images/03_restaurant_performance.png)
-
-### Page 4 – Delivery and Operations
-Delivery time, late and cancelled orders, city-wise delivery time and cancellations, average order value by service type, city-wise delivery details and delivery-status breakdown with a year slicer.
-
-![Delivery and Operations](images/04_delivery_operations.png)
-
-### Page 5 – Advanced Insights
-A KPI selector that dynamically changes the trend chart and the rating-vs-KPI scatter plot by cost bucket, plus a Q&A visual for natural-language questions.
-
-![Advanced Insights](images/05_advanced_insights.png)
-
-### Page 6 – Restaurant Details (Drill-through)
-A drill-through page that shows detailed KPIs, customer-type orders, delivery status and revenue/order trends for any selected restaurant (example: *Cafe Coffee Day*).
-
-![Restaurant Details](images/06_restaurant_details.png)
-
----
-
-## 8. Key Findings
+## 7. Key Findings
 
 ### 💰 Business Performance
 - The business generated **₹165M in revenue from 200K orders**, with an **average order value of ≈ ₹824.57**.
@@ -218,7 +184,7 @@ A drill-through page that shows detailed KPIs, customer-type orders, delivery st
 
 ---
 
-## 9. Conclusion
+## 8. Conclusion
 This project shows how Power BI can turn raw restaurant and order data into a complete decision-support tool. The six-page dashboard covers executive KPIs, customer behaviour, restaurant quality, delivery operations, advanced KPI exploration and restaurant-level drill-through.
 
 The analysis shows that the business is **revenue-stable with strong customer loyalty (50% repeat rate)** but faces **operational challenges** – nearly half of deliveries are late and ~10% of orders are cancelled, particularly in high-volume localities like BTM. Focusing on delivery logistics, improving ratings of high-volume restaurants and promoting mid-range / premium options can increase both customer satisfaction and revenue.
